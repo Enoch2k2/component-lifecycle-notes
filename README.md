@@ -1,0 +1,1 @@
+# component-lifecycle-notes
