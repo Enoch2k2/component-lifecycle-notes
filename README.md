@@ -160,7 +160,7 @@ Constructor -> getDerivedStateFromProps -> render -> componentDidMount
 
 ## Update Phase
 ```
-getDerivedStateFromProps -> shouldComponentUpdate -> getSnapshotBeforeUpdate -> componentDidUpdate
+some event trigger -> getDerivedStateFromProps -> shouldComponentUpdate -> render -> getSnapshotBeforeUpdate -> componentDidUpdate
 ```
 
 ## Unmount Phase
